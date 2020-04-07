@@ -10,7 +10,7 @@
 </head>
 <body>
 	<%
-		String path = request.getRealPath("fileUpDown");
+		String path = application.getRealPath("fileUpDown");
 		//String path2 = "C:\\12월취업반정선주\\test";
 		out.print("fileFolder Path : " + path);
 		int size = 1024 * 1024 * 10;		//10M
